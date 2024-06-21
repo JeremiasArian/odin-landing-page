@@ -11,6 +11,8 @@ body {
 }
 
 header {
+  padding-right: 400px;
+  padding-left: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,19 +32,24 @@ header {
 }
 
 .first-div {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 600px;
   background-color: #1F2937;
 }
 
 .first-div .title {
   padding-top: 100px;
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: extra-bold;
-  text-align: center;
+}
+
+.first-div .button {
+  align-self: flex-start;
 }
 
 .first-div, .secondary-text {
   font-size: 18px;
   color: #E5E7EB;
-} 
+}
