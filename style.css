@@ -40,7 +40,7 @@ header {
   display: flex;
   flex-flow: column wrap;
   padding-left: 550px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   align-self: flex-start;
 }
 
@@ -75,4 +75,17 @@ header {
   display: flex;
   padding: 100px;
   align-self: flex-start;
+}
+
+.second-div .title {
+  text-align: center;
+}
+
+.images-row {
+  padding-left: 400px;
+  padding-right: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
 }
