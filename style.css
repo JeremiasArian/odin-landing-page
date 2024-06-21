@@ -1,9 +1,6 @@
-html {
-  font-family: roboto ,arial;
-}
-
 html, 
 body {
+    font-family: roboto ,arial;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,11 +9,12 @@ body {
 
 header {
   padding-right: 400px;
-  padding-left: 600px;
+  padding-left: 550px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
+  padding-bottom: 100px;
 }
 
 .logo {
@@ -31,16 +29,22 @@ header {
   padding-left: 10px;
 }
 
+.top-first-div {
+  background-color: #1F2937;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 89px;
+}
+
 .first-div {
   display: flex;
   flex-flow: column wrap;
-  padding-left: 600px;
-  background-color: #1F2937;
+  padding-left: 550px;
   padding-bottom: 200px;
+  align-self: flex-start;
 }
 
 .first-div .title {
-  padding-top: 100px;
   margin-top: 0;
   font-size: 48px;
   color: #F9FAF8;
@@ -59,9 +63,16 @@ header {
   font-family: roboto ,arial;
 }
 
-.first-div, .secondary-text {
+.secondary-text {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.image-container {
+  background-color: #5f7da7;
+  display: flex;
+  padding: 100px;
+  align-self: flex-start;
 }
