@@ -47,6 +47,14 @@ header {
 
 .first-div .button {
   align-self: flex-start;
+  background-color: #3852F6;
+  border: none;
+  color: white;
+  padding: 8px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: roboto ,arial;
 }
 
 .first-div, .secondary-text {
