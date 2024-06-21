@@ -70,7 +70,7 @@ header {
   color: #E5E7EB;
 }
 
-.image-container {
+.top-first-div .image-container {
   background-color: #5f7da7;
   display: flex;
   padding: 100px;
