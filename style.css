@@ -36,6 +36,7 @@ header {
   flex-flow: column wrap;
   padding-left: 600px;
   background-color: #1F2937;
+  padding-bottom: 200px;
 }
 
 .first-div .title {
