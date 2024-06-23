@@ -161,3 +161,11 @@ header {
   font-weight: bolder;
   color: white;
 }
+
+footer p {
+  background-color: #1F2937;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 30px;
+  color: #E5E7EB;
+}
