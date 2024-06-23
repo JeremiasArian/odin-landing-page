@@ -89,3 +89,29 @@ header {
   justify-content: space-evenly;
   row-gap: 10px;
 }
+
+.quote {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+
+}
+
+.quote .author {
+  margin-top: 0;
+  margin-bottom: 120px;
+  padding-left: 500px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
